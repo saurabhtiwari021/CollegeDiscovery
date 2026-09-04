@@ -1,0 +1,454 @@
+// College Discovery MVP — Prisma schema
+// Mirrors the canonical model in the Implementation Roadmap (section 5)
+// and the columns present in the V3 seed dataset.
+// Prisma ORM v7, Rust-free client (queryCompiler/driverAdapters is the v7 default).
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ---------------------------------------------------------------------------
+// Location dimensions
+// ---------------------------------------------------------------------------
+
+model State {
+  id                 Int     @id
+  name               String
+  code               String?
+  sourceType         String? @map("source_type")
+  verificationStatus String? @map("verification_status")
+  notes              String?
+
+  cities   City[]
+  colleges College[]
+
+  @@map("states")
+}
+
+model City {
+  id                 Int      @id
+  stateId            Int      @map("state_id")
+  name               String
+  normalizedName     String?  @map("normalized_name")
+  latitude           Decimal? @db.Decimal(10, 7)
+  longitude          Decimal? @db.Decimal(10, 7)
+  sourceType         String?  @map("source_type")
+  verificationStatus String?  @map("verification_status")
+  notes              String?
+
+  state    State     @relation(fields: [stateId], references: [id])
+  colleges College[]
+
+  @@index([stateId])
+  @@index([normalizedName])
+  @@map("cities")
+}
+
+// ---------------------------------------------------------------------------
+// Taxonomy dimensions
+// ---------------------------------------------------------------------------
+
+model InstitutionType {
+  id   Int    @id
+  name String
+  slug String @unique
+
+  colleges College[]
+
+  @@map("institution_types")
+}
+
+model OwnershipType {
+  id   Int    @id
+  name String
+  slug String @unique
+
+  colleges College[]
+
+  @@map("ownership_types")
+}
+
+// ---------------------------------------------------------------------------
+// Study Goal -> Program taxonomy
+// ---------------------------------------------------------------------------
+
+model StudyGoal {
+  id                 Int     @id
+  slug               String  @unique
+  name               String
+  description        String?
+  iconKey            String? @map("icon_key")
+  displayOrder       Int?    @map("display_order")
+  isActive           Boolean @default(true) @map("is_active")
+  label              String?
+  filterGroup        String? @map("filter_group")
+  sourceType         String? @map("source_type")
+  sourceUrl          String? @map("source_url")
+  verificationStatus String? @map("verification_status")
+  notes              String?
+
+  programs StudyGoalProgram[]
+
+  @@map("study_goals")
+}
+
+model Program {
+  id                     Int      @id
+  slug                   String   @unique
+  name                   String
+  degreeLevel            String?  @map("degree_level")
+  categoryId             Int?     @map("category_id")
+  durationYearsDefault   Decimal? @map("duration_years_default") @db.Decimal(4, 1)
+  isActive               Boolean  @default(true) @map("is_active")
+  description            String?
+  eligibilitySummary     String?  @map("eligibility_summary")
+  typicalEducationLevel  String?  @map("typical_education_level")
+  streamRequirement      String?  @map("stream_requirement")
+  normalizedName         String?  @map("normalized_name")
+  sourceType             String?  @map("source_type")
+  verificationStatus     String?  @map("verification_status")
+  notes                  String?
+
+  studyGoals      StudyGoalProgram[]
+  collegePrograms CollegeProgram[]
+  programExams    ProgramExam[]
+
+  @@index([normalizedName])
+  @@map("programs")
+}
+
+model StudyGoalProgram {
+  studyGoalId        Int     @map("study_goal_id")
+  programId          Int     @map("program_id")
+  displayOrder       Int?    @map("display_order")
+  isPrimary          Boolean @default(false) @map("is_primary")
+  sourceType         String? @map("source_type")
+  verificationStatus String? @map("verification_status")
+  notes              String?
+
+  studyGoal StudyGoal @relation(fields: [studyGoalId], references: [id])
+  program   Program   @relation(fields: [programId], references: [id])
+
+  @@id([studyGoalId, programId])
+  @@map("study_goal_programs")
+}
+
+// ---------------------------------------------------------------------------
+// Exams
+// ---------------------------------------------------------------------------
+
+model EntranceExam {
+  id                 Int     @id
+  slug               String  @unique
+  name               String
+  level              String?
+  conductingBody     String? @map("conducting_body")
+  websiteUrl         String? @map("website_url")
+  isActive           Boolean @default(true) @map("is_active")
+  examScope          String? @map("exam_scope")
+  admissionRoute     String? @map("admission_route")
+  applicableState    String? @map("applicable_state")
+  sourceType         String? @map("source_type")
+  verificationStatus String? @map("verification_status")
+  notes              String?
+
+  programExams        ProgramExam[]
+  collegeProgramExams CollegeProgramExam[]
+
+  @@map("entrance_exams")
+}
+
+model ProgramExam {
+  programId          Int     @map("program_id")
+  examId             Int     @map("exam_id")
+  eligibilityScope   String? @map("eligibility_scope")
+  priority           Int?
+  examScope          String? @map("exam_scope")
+  admissionRoute     String? @map("admission_route")
+  applicableState    String? @map("applicable_state")
+  sourceType         String? @map("source_type")
+  verificationStatus String? @map("verification_status")
+  notes              String?
+
+  program Program      @relation(fields: [programId], references: [id])
+  exam    EntranceExam @relation(fields: [examId], references: [id])
+
+  @@id([programId, examId])
+  @@map("program_exams")
+}
+
+// ---------------------------------------------------------------------------
+// Colleges
+// ---------------------------------------------------------------------------
+
+model College {
+  id                 Int      @id
+  name               String
+  slug               String   @unique
+  shortName          String?  @map("short_name")
+  cityId             Int?     @map("city_id")
+  stateId            Int?     @map("state_id")
+  institutionTypeId  Int?     @map("institution_type_id")
+  ownershipId        Int?     @map("ownership_id")
+  feesUgInr          Decimal? @map("fees_ug_inr") @db.Decimal(12, 2)
+  placementAvgLpa    Decimal? @map("placement_avg_lpa") @db.Decimal(8, 2)
+  rating             Decimal? @db.Decimal(3, 1)
+  nirfRank           Int?     @map("nirf_rank")
+  descriptionShort   String?  @map("description_short")
+  websiteUrl         String?  @map("website_url")
+  isActive           Boolean  @default(true) @map("is_active")
+  searchName         String?  @map("search_name")
+  normalizedName     String?  @map("normalized_name")
+  logoUrl            String?  @map("logo_url")
+  coverImageUrl      String?  @map("cover_image_url")
+  address            String?
+  pincode            String?
+  establishedYear    Int?     @map("established_year")
+  accreditation      String?
+  detailAvailable    Boolean  @default(false) @map("detail_available")
+  sourceType         String?  @map("source_type")
+  sourceUrl          String?  @map("source_url")
+  verificationStatus String?  @map("verification_status")
+  notes              String?
+
+  city            City?            @relation(fields: [cityId], references: [id])
+  state           State?           @relation(fields: [stateId], references: [id])
+  institutionType InstitutionType? @relation(fields: [institutionTypeId], references: [id])
+  ownership       OwnershipType?   @relation(fields: [ownershipId], references: [id])
+
+  programs          CollegeProgram[]
+  placements        Placement[]
+  detail            CollegeDetail?
+  reviews           ReviewDemo[]
+  aliases           CollegeAlias[]
+  saved             SavedCollege[]
+  comparisonEntries SavedComparisonCollege[]
+
+  @@index([stateId])
+  @@index([cityId])
+  @@index([rating])
+  @@index([searchName])
+  @@index([normalizedName])
+  @@map("colleges")
+}
+
+model CollegeProgram {
+  id                 Int      @id @default(autoincrement())
+  collegeId          Int      @map("college_id")
+  programId          Int      @map("program_id")
+  annualFeeInr       Decimal? @map("annual_fee_inr") @db.Decimal(12, 2)
+  durationYears      Decimal? @map("duration_years") @db.Decimal(4, 1)
+  eligibilityText    String?  @map("eligibility_text")
+  seatsOptional      Int?     @map("seats_optional")
+  admissionsNote     String?  @map("admissions_note")
+  sourceType         String?  @map("source_type")
+  sourceStatus       String?  @map("source_status")
+  sourceUrl          String?  @map("source_url")
+  verificationStatus String?  @map("verification_status")
+  isVerified         Boolean  @default(false) @map("is_verified")
+  isActive           Boolean  @default(true) @map("is_active")
+  notes              String?
+  mappingConfidence  String?  @map("mapping_confidence") // verified | high | medium | low
+  mappingBasis       String?  @map("mapping_basis")
+
+  college College @relation(fields: [collegeId], references: [id])
+  program Program @relation(fields: [programId], references: [id])
+
+  exams CollegeProgramExam[]
+
+  @@unique([collegeId, programId])
+  @@index([programId, isActive])
+  @@index([collegeId, isActive])
+  @@map("college_programs")
+}
+
+model CollegeProgramExam {
+  id                 Int     @id @default(autoincrement())
+  collegeId          Int     @map("college_id")
+  programId          Int     @map("program_id")
+  examId             Int     @map("exam_id")
+  acceptanceScope    String? @map("acceptance_scope")
+  notes              String?
+  sourceType         String? @map("source_type")
+  sourceStatus       String? @map("source_status")
+  sourceUrl          String? @map("source_url")
+  verificationStatus String? @map("verification_status")
+  admissionRoute     String? @map("admission_route")
+  applicableState    String? @map("applicable_state")
+
+  collegeProgram CollegeProgram @relation(fields: [collegeId, programId], references: [collegeId, programId])
+  exam           EntranceExam   @relation(fields: [examId], references: [id])
+
+  @@unique([collegeId, programId, examId])
+  @@index([examId])
+  @@map("college_program_exams")
+}
+
+model Placement {
+  id                 Int      @id
+  collegeId          Int      @map("college_id")
+  year               Int?
+  averagePackageLpa  Decimal? @map("average_package_lpa") @db.Decimal(8, 2)
+  medianPackageLpa   Decimal? @map("median_package_lpa") @db.Decimal(8, 2)
+  highestPackageLpa  Decimal? @map("highest_package_lpa") @db.Decimal(8, 2)
+  placementRatePct   Decimal? @map("placement_rate_pct") @db.Decimal(5, 2)
+  sourceStatus       String?  @map("source_status")
+  sourceType         String?  @map("source_type")
+  sourceUrl          String?  @map("source_url")
+  verificationStatus String?  @map("verification_status")
+  notes              String?
+
+  college College @relation(fields: [collegeId], references: [id])
+
+  @@index([collegeId])
+  @@map("placements")
+}
+
+model CollegeDetail {
+  collegeId          Int     @id @map("college_id")
+  establishedYear    Int?    @map("established_year")
+  campusArea         String? @map("campus_area")
+  accreditation      String?
+  overview           String?
+  facilities         String?
+  hostelInfo         String? @map("hostel_info")
+  websiteUrl         String? @map("website_url")
+  sourceType         String? @map("source_type")
+  sourceUrl          String? @map("source_url")
+  verificationStatus String? @map("verification_status")
+  notes              String?
+
+  college College @relation(fields: [collegeId], references: [id])
+
+  @@map("college_details")
+}
+
+model ReviewDemo {
+  id                 Int       @id
+  collegeId          Int       @map("college_id")
+  userId             String?   @map("user_id")
+  rating             Decimal?  @db.Decimal(2, 1)
+  title              String?
+  body               String?
+  createdAt          DateTime? @map("created_at")
+  status             String?
+  sourceType         String?   @map("source_type")
+  verificationStatus String?   @map("verification_status")
+  notes              String?
+
+  college College @relation(fields: [collegeId], references: [id])
+
+  @@index([collegeId])
+  @@map("reviews_demo")
+}
+
+model CollegeAlias {
+  id                 Int     @id
+  collegeId          Int     @map("college_id")
+  alias              String
+  normalizedAlias    String? @map("normalized_alias")
+  aliasType          String? @map("alias_type")
+  sourceType         String? @map("source_type")
+  verificationStatus String? @map("verification_status")
+  notes              String?
+  confidence         String? // verified | high | medium | low
+
+  college College @relation(fields: [collegeId], references: [id])
+
+  @@index([normalizedAlias])
+  @@index([collegeId])
+  @@map("college_aliases")
+}
+
+// ---------------------------------------------------------------------------
+// Auth + saved colleges  (Auth.js Prisma-adapter-compatible shape)
+// ---------------------------------------------------------------------------
+
+model User {
+  id            String    @id @default(cuid())
+  email         String    @unique
+  name          String?
+  passwordHash  String?   @map("password_hash")
+  emailVerified DateTime? @map("email_verified")
+  image         String?
+  createdAt     DateTime  @default(now()) @map("created_at")
+  updatedAt     DateTime  @updatedAt @map("updated_at")
+
+  savedColleges    SavedCollege[]
+  savedComparisons SavedComparison[]
+  sessions         Session[]
+  accounts         Account[]
+
+  @@map("users")
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String  @map("user_id")
+  type              String
+  provider          String
+  providerAccountId String  @map("provider_account_id")
+  refresh_token     String?
+  access_token      String?
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  @@map("accounts")
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique @map("session_token")
+  userId       String   @map("user_id")
+  expires      DateTime
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("sessions")
+}
+
+model SavedCollege {
+  userId    String   @map("user_id")
+  collegeId Int      @map("college_id")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  college College @relation(fields: [collegeId], references: [id])
+
+  @@id([userId, collegeId])
+  @@map("saved_colleges")
+}
+
+model SavedComparison {
+  id        String   @id @default(cuid())
+  userId    String   @map("user_id")
+  name      String?
+  createdAt DateTime @default(now()) @map("created_at")
+
+  user     User                     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  colleges SavedComparisonCollege[]
+
+  @@map("saved_comparisons")
+}
+
+model SavedComparisonCollege {
+  comparisonId String @map("comparison_id")
+  collegeId    Int    @map("college_id")
+
+  comparison SavedComparison @relation(fields: [comparisonId], references: [id], onDelete: Cascade)
+  college    College         @relation(fields: [collegeId], references: [id])
+
+  @@id([comparisonId, collegeId])
+  @@map("saved_comparison_colleges")
+}

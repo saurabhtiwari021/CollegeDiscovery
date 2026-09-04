@@ -1,0 +1,306 @@
+id,college_id,alias,alias_type,source_type,verification_status,notes,confidence
+1,101,aiims delhi,normalized_full_name,derived,reviewed,Derived search alias.,high
+2,101,ad,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+3,75,iim ahmedabad,normalized_full_name,derived,reviewed,Derived search alias.,high
+4,75,ia,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+5,566,indian institute of science bengaluru,normalized_full_name,derived,reviewed,Derived search alias.,high
+6,566,iisb,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+7,17,iit madras,normalized_full_name,derived,reviewed,Derived search alias.,high
+8,17,im,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+9,77,iim bangalore,normalized_full_name,derived,reviewed,Derived search alias.,high
+10,77,ib,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+11,6,iit delhi,normalized_full_name,derived,reviewed,Derived search alias.,high
+12,6,id,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+13,837,nlu delhi,normalized_full_name,derived,reviewed,Derived search alias.,high
+14,837,nd,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+15,635,jawaharlal nehru university,normalized_full_name,derived,reviewed,Derived search alias.,high
+16,635,jnu,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+17,83,iim kozhikode,normalized_full_name,derived,reviewed,Derived search alias.,high
+18,83,ik,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+19,5,iit bombay,normalized_full_name,derived,reviewed,Derived search alias.,high
+20,5,ib,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+21,796,nalsar hyderabad,normalized_full_name,derived,reviewed,Derived search alias.,high
+22,796,nh,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+23,627,jamia millia islamia,normalized_full_name,derived,reviewed,Derived search alias.,high
+24,627,jmi,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+25,15,iit kanpur,normalized_full_name,derived,reviewed,Derived search alias.,high
+26,15,ik,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+27,741,manipal academy of higher education manipal,normalized_full_name,derived,reviewed,Derived search alias.,high
+28,741,mahem,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+29,84,iim lucknow,normalized_full_name,derived,reviewed,Derived search alias.,high
+30,84,il,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+31,16,iit kharagpur,normalized_full_name,derived,reviewed,Derived search alias.,high
+32,16,ik,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+33,237,bhu varanasi,normalized_full_name,derived,reviewed,Derived search alias.,high
+34,237,bv,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+35,207,banaras hindu university,normalized_full_name,derived,reviewed,Derived search alias.,high
+36,207,bhu,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+37,447,gnlu gandhinagar,normalized_full_name,derived,reviewed,Derived search alias.,high
+38,447,gg,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+39,85,iim mumbai,normalized_full_name,derived,reviewed,Derived search alias.,high
+40,85,im,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+41,21,iit roorkee,normalized_full_name,derived,reviewed,Derived search alias.,high
+42,21,ir,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+43,1140,university of delhi,normalized_full_name,derived,reviewed,Derived search alias.,high
+44,1140,ud,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+45,79,iim calcutta,normalized_full_name,derived,reviewed,Derived search alias.,high
+46,79,ic,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+47,11,iit hyderabad,normalized_full_name,derived,reviewed,Derived search alias.,high
+48,11,ih,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+49,153,amrita vishwa vidyapeetham,normalized_full_name,derived,reviewed,Derived search alias.,high
+50,153,avv,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+51,80,iim indore,normalized_full_name,derived,reviewed,Derived search alias.,high
+52,80,ii,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+53,10,iit guwahati,normalized_full_name,derived,reviewed,Derived search alias.,high
+54,10,ig,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+55,128,aligarh muslim university,normalized_full_name,derived,reviewed,Derived search alias.,high
+56,128,amu,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+57,838,nlu jodhpur,normalized_full_name,derived,reviewed,Derived search alias.,high
+58,838,nj,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+59,50,nit trichy,normalized_full_name,derived,reviewed,Derived search alias.,high
+60,50,nt,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+61,155,amu aligarh,normalized_full_name,derived,reviewed,Derived search alias.,high
+62,155,aa,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+63,616,jadavpur university,normalized_full_name,derived,reviewed,Derived search alias.,high
+64,616,ju,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+65,3,iit bhu varanasi,normalized_full_name,derived,reviewed,Derived search alias.,high
+66,3,ibv,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+67,1167,vellore institute of technology,normalized_full_name,derived,reviewed,Derived search alias.,high
+68,1167,vit,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+69,98,bits pilani,normalized_full_name,derived,reviewed,Derived search alias.,high
+70,98,bp,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+71,979,saveetha institute of medical and technical sciences,normalized_full_name,derived,reviewed,Derived search alias.,high
+72,979,simts,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+73,12,iit indore,normalized_full_name,derived,reviewed,Derived search alias.,high
+74,12,ii,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+75,835,nliu bhopal,normalized_full_name,derived,reviewed,Derived search alias.,high
+76,835,nb,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+77,954,s r m institute of science and technology,normalized_full_name,derived,reviewed,Derived search alias.,high
+78,954,srmist,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+79,109,aiims rishikesh,normalized_full_name,derived,reviewed,Derived search alias.,high
+80,109,ar,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+81,45,nit rourkela,normalized_full_name,derived,reviewed,Derived search alias.,high
+82,45,nr,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+83,158,anna university,normalized_full_name,derived,reviewed,Derived search alias.,high
+84,158,au,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+85,100,aiims bhubaneswar,normalized_full_name,derived,reviewed,Derived search alias.,high
+86,100,ab,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+87,1185,vit vellore,normalized_full_name,derived,reviewed,Derived search alias.,high
+88,1185,vv,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+89,1026,siksha o anusandhan,normalized_full_name,derived,reviewed,Derived search alias.,high
+90,1026,soa,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+91,1,iit ism dhanbad,normalized_full_name,derived,reviewed,Derived search alias.,high
+92,1,iid,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+93,656,kalinga institute of industrial technology,normalized_full_name,derived,reviewed,Derived search alias.,high
+94,656,kiit,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+95,87,iim raipur,normalized_full_name,derived,reviewed,Derived search alias.,high
+96,87,ir,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+97,531,homi bhabha national institute,normalized_full_name,derived,reviewed,Derived search alias.,high
+98,531,hbni,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+99,103,aiims jodhpur,normalized_full_name,derived,reviewed,Derived search alias.,high
+100,103,aj,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+101,93,iim tiruchirappalli,normalized_full_name,derived,reviewed,Derived search alias.,high
+102,93,it,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+103,1142,university of hyderabad,normalized_full_name,derived,reviewed,Derived search alias.,high
+104,1142,uh,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+105,49,nit surathkal,normalized_full_name,derived,reviewed,Derived search alias.,high
+106,49,ns,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+107,88,iim ranchi,normalized_full_name,derived,reviewed,Derived search alias.,high
+108,88,ir,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+109,258,calcutta university,normalized_full_name,derived,reviewed,Derived search alias.,high
+110,258,cu,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+111,244,birla institute of technology and science pilani,normalized_full_name,derived,reviewed,Derived search alias.,high
+112,244,bitsp,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+113,20,iit patna,normalized_full_name,derived,reviewed,Derived search alias.,high
+114,20,ip,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+115,89,iim rohtak,normalized_full_name,derived,reviewed,Derived search alias.,high
+116,89,ir,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+117,286,chandigarh university,normalized_full_name,derived,reviewed,Derived search alias.,high
+118,286,cu,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+119,94,iim udaipur,normalized_full_name,derived,reviewed,Derived search alias.,high
+120,94,iu,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+121,31,nit calicut,normalized_full_name,derived,reviewed,Derived search alias.,high
+122,31,nc,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+123,670,kerala university,normalized_full_name,derived,reviewed,Derived search alias.,high
+124,670,ku,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+125,148,amity university noida,normalized_full_name,derived,reviewed,Derived search alias.,high
+126,148,aun,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+127,685,koneru lakshmaiah education foundation university k l college of engineering,normalized_full_name,derived,reviewed,Derived search alias.,high
+128,980,savitribai phule pune university,normalized_full_name,derived,reviewed,Derived search alias.,high
+129,980,sppu,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+130,82,iim kashipur,normalized_full_name,derived,reviewed,Derived search alias.,high
+131,82,ik,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+132,649,jss academy of higher education and research,normalized_full_name,derived,reviewed,Derived search alias.,high
+133,649,jaher,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+134,99,aiims bhopal,normalized_full_name,derived,reviewed,Derived search alias.,high
+135,99,ab,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+136,8,iit gandhinagar,normalized_full_name,derived,reviewed,Derived search alias.,high
+137,8,ig,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+138,86,iim nagpur,normalized_full_name,derived,reviewed,Derived search alias.,high
+139,86,in,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+140,157,andhra university,normalized_full_name,derived,reviewed,Derived search alias.,high
+141,157,au,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+142,18,iit mandi,normalized_full_name,derived,reviewed,Derived search alias.,high
+143,18,im,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+144,226,bharathiar university,normalized_full_name,derived,reviewed,Derived search alias.,high
+145,226,bu,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+146,14,iit jodhpur,normalized_full_name,derived,reviewed,Derived search alias.,high
+147,14,ij,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+148,107,aiims patna,normalized_full_name,derived,reviewed,Derived search alias.,high
+149,107,ap,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+150,706,lovely professional university,normalized_full_name,derived,reviewed,Derived search alias.,high
+151,706,lpu,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+152,53,nit warangal,normalized_full_name,derived,reviewed,Derived search alias.,high
+153,53,nw,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+154,990,shanmugha arts science technology and research academy,normalized_full_name,derived,reviewed,Derived search alias.,high
+155,990,sastra,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+156,1106,thapar institute of engineering and technology deemed to be university,normalized_full_name,derived,reviewed,Derived search alias.,high
+157,1106,tietdtbu,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+158,95,iim visakhapatnam,normalized_full_name,derived,reviewed,Derived search alias.,high
+159,95,iv,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+160,655,kalasalingam academy of research and education,normalized_full_name,derived,reviewed,Derived search alias.,high
+161,655,kare,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+162,1093,symbiosis international,normalized_full_name,derived,reviewed,Derived search alias.,high
+163,1093,si,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+164,108,aiims raipur,normalized_full_name,derived,reviewed,Derived search alias.,high
+165,108,ar,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+166,78,iim bodh gaya,normalized_full_name,derived,reviewed,Derived search alias.,high
+167,78,ibg,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+168,22,iit ropar,normalized_full_name,derived,reviewed,Derived search alias.,high
+169,22,ir,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+170,143,amity university,normalized_full_name,derived,reviewed,Derived search alias.,high
+171,143,au,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+172,202,babasaheb bhimrao ambedkar university,normalized_full_name,derived,reviewed,Derived search alias.,high
+173,202,bbau,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+174,317,cochin university of science and technology,normalized_full_name,derived,reviewed,Derived search alias.,high
+175,317,cust,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+176,90,iim sambalpur,normalized_full_name,derived,reviewed,Derived search alias.,high
+177,90,is,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+178,587,institute of chemical technology,normalized_full_name,derived,reviewed,Derived search alias.,high
+179,587,ict,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+180,106,aiims nagpur,normalized_full_name,derived,reviewed,Derived search alias.,high
+181,106,an,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+182,130,allahabad university,normalized_full_name,derived,reviewed,Derived search alias.,high
+183,130,au,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+184,81,iim jammu,normalized_full_name,derived,reviewed,Derived search alias.,high
+185,81,ij,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+186,227,bharathidasan university,normalized_full_name,derived,reviewed,Derived search alias.,high
+187,227,bu,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+188,728,mahatma gandhi university,normalized_full_name,derived,reviewed,Derived search alias.,high
+189,728,mgu,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+190,61,iiit hyderabad,normalized_full_name,derived,reviewed,Derived search alias.,high
+191,61,ih,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+192,91,iim shillong,normalized_full_name,derived,reviewed,Derived search alias.,high
+193,91,is,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+194,102,aiims gorakhpur,normalized_full_name,derived,reviewed,Derived search alias.,high
+195,102,ag,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+196,866,panjab university,normalized_full_name,derived,reviewed,Derived search alias.,high
+197,866,pu,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+198,4,iit bhubaneswar,normalized_full_name,derived,reviewed,Derived search alias.,high
+199,4,ib,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+200,1146,university of madras,normalized_full_name,derived,reviewed,Derived search alias.,high
+201,1146,um,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+202,104,aiims kalyani,normalized_full_name,derived,reviewed,Derived search alias.,high
+203,104,ak,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+204,428,gauhati university,normalized_full_name,derived,reviewed,Derived search alias.,high
+205,428,gu,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+206,626,jamia hamdard,normalized_full_name,derived,reviewed,Derived search alias.,high
+207,626,jh,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+208,25,mnit jaipur,normalized_full_name,derived,reviewed,Derived search alias.,high
+209,25,mj,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+210,335,datta meghe institute of higher education and research,normalized_full_name,derived,reviewed,Derived search alias.,high
+211,335,dmiher,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+212,855,osmania university,normalized_full_name,derived,reviewed,Derived search alias.,high
+213,855,ou,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+214,54,vnit nagpur,normalized_full_name,derived,reviewed,Derived search alias.,high
+215,54,vn,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+216,392,dr d y patil vidyapeeth,normalized_full_name,derived,reviewed,Derived search alias.,high
+217,392,ddypv,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+218,96,bits goa,normalized_full_name,derived,reviewed,Derived search alias.,high
+219,96,bg,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+220,105,aiims mangalagiri,normalized_full_name,derived,reviewed,Derived search alias.,high
+221,105,am,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+222,1144,university of kashmir,normalized_full_name,derived,reviewed,Derived search alias.,high
+223,1144,uk,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+224,1149,upes,normalized_full_name,derived,reviewed,Derived search alias.,high
+225,127,alagappa university,normalized_full_name,derived,reviewed,Derived search alias.,high
+226,127,au,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+227,352,delhi technological university,normalized_full_name,derived,reviewed,Derived search alias.,high
+228,352,dtu,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+229,33,nit durgapur,normalized_full_name,derived,reviewed,Derived search alias.,high
+230,33,nd,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+231,1084,svkm s narsee monjee institute of management studies,normalized_full_name,derived,reviewed,Derived search alias.,high
+232,1084,ssnmims,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+233,47,nit silchar,normalized_full_name,derived,reviewed,Derived search alias.,high
+234,47,ns,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+235,1143,university of jammu,normalized_full_name,derived,reviewed,Derived search alias.,high
+236,1143,uj,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+237,890,psg college of technology,normalized_full_name,derived,reviewed,Derived search alias.,high
+238,890,pct,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+239,92,iim sirmaur,normalized_full_name,derived,reviewed,Derived search alias.,high
+240,92,is,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+241,976,sathyabama institute of science and technology,normalized_full_name,derived,reviewed,Derived search alias.,high
+242,976,sist,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+243,498,graphic era university,normalized_full_name,derived,reviewed,Derived search alias.,high
+244,498,geu,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+245,676,king george s medical university,normalized_full_name,derived,reviewed,Derived search alias.,high
+246,676,kgsmu,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+247,42,nit patna,normalized_full_name,derived,reviewed,Derived search alias.,high
+248,42,np,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+249,792,mysore university,normalized_full_name,derived,reviewed,Derived search alias.,high
+250,792,mu,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+251,97,bits hyderabad,normalized_full_name,derived,reviewed,Derived search alias.,high
+252,97,bh,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+253,1052,sri ramachandra institute of higher education and research,normalized_full_name,derived,reviewed,Derived search alias.,high
+254,1052,sriher,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+255,873,periyar university,normalized_full_name,derived,reviewed,Derived search alias.,high
+256,873,pu,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+257,319,coep pune,normalized_full_name,derived,reviewed,Derived search alias.,high
+258,319,cp,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+259,23,iit tirupati,normalized_full_name,derived,reviewed,Derived search alias.,high
+260,23,it,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+261,895,punjab agricultural university,normalized_full_name,derived,reviewed,Derived search alias.,high
+262,895,pau,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+263,1097,tata institute of social sciences,normalized_full_name,derived,reviewed,Derived search alias.,high
+264,1097,tiss,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+265,24,manit bhopal,normalized_full_name,derived,reviewed,Derived search alias.,high
+266,24,mb,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+267,36,nit jalandhar,normalized_full_name,derived,reviewed,Derived search alias.,high
+268,36,nj,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+269,114,acharya nagarjuna university,normalized_full_name,derived,reviewed,Derived search alias.,high
+270,114,anu,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+271,40,nit meghalaya,normalized_full_name,derived,reviewed,Derived search alias.,high
+272,40,nm,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+273,306,christ university,normalized_full_name,derived,reviewed,Derived search alias.,high
+274,306,cu,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+275,790,mumbai university,normalized_full_name,derived,reviewed,Derived search alias.,high
+276,790,mu,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+277,999,shiv nadar university,normalized_full_name,derived,reviewed,Derived search alias.,high
+278,999,snu,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+279,26,mnnit allahabad,normalized_full_name,derived,reviewed,Derived search alias.,high
+280,26,ma,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+281,38,nit kurukshetra,normalized_full_name,derived,reviewed,Derived search alias.,high
+282,38,nk,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+283,59,iiit delhi,normalized_full_name,derived,reviewed,Derived search alias.,high
+284,59,id,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+285,952,rv college of engineering,normalized_full_name,derived,reviewed,Derived search alias.,high
+286,952,rce,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+287,714,madurai kamaraj university,normalized_full_name,derived,reviewed,Derived search alias.,high
+288,714,mku,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+289,76,iim amritsar,normalized_full_name,derived,reviewed,Derived search alias.,high
+290,76,ia,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+291,35,nit hamirpur,normalized_full_name,derived,reviewed,Derived search alias.,high
+292,35,nh,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+293,743,manipal university jaipur,normalized_full_name,derived,reviewed,Derived search alias.,high
+294,743,muj,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+295,220,bennett university,normalized_full_name,derived,reviewed,Derived search alias.,high
+296,220,bu,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+297,621,jain university bangalore,normalized_full_name,derived,reviewed,Derived search alias.,high
+298,621,jub,derived_acronym,derived,unverified,Heuristic acronym; verify before relying on it for exact search.,low
+299,6,iitd,verified_acronym,official,verified,Verified/common institutional acronym added for search.,
+300,5,iitb,verified_acronym,official,verified,Verified/common institutional acronym added for search.,
+301,17,iitm,verified_acronym,official,verified,Verified/common institutional acronym added for search.,
+302,75,iima,verified_acronym,official,verified,Verified/common institutional acronym added for search.,
+303,836,nlsiu,verified_acronym,official,verified,Verified/common institutional acronym added for search.,
+304,796,nalsar,verified_acronym,official,verified,Verified/common institutional acronym added for search.,
+305,98,bits,verified_acronym,official,verified,Verified/common institutional acronym added for search.,

@@ -1,0 +1,13 @@
+study_goal_id,study_goal,mapped_program_count,active_college_count,minimum_program_target,program_target_met,college_count_definition,notes
+1,Engineering,5,495,3,true,COUNT(DISTINCT college_id) through active college_programs,College count is dynamic and excludes inactive low-confidence mappings; B.Arch is classified under Architecture & Planning only.
+2,Management,6,107,3,true,COUNT(DISTINCT college_id) through active college_programs,College count is dynamic and excludes inactive low-confidence mappings.
+3,Commerce,3,20,3,true,COUNT(DISTINCT college_id) through active college_programs,College count is dynamic and excludes inactive low-confidence mappings.
+4,Arts & Humanities,6,20,3,true,COUNT(DISTINCT college_id) through active college_programs,College count is dynamic and excludes inactive low-confidence mappings.
+5,Science,4,36,3,true,COUNT(DISTINCT college_id) through active college_programs,College count is dynamic and excludes inactive low-confidence mappings.
+6,Medicine & Health,7,96,3,true,COUNT(DISTINCT college_id) through active college_programs,College count is dynamic and excludes inactive low-confidence mappings.
+7,Law,5,29,3,true,COUNT(DISTINCT college_id) through active college_programs,College count is dynamic and excludes inactive low-confidence mappings.
+8,Design & Creative,5,9,3,true,COUNT(DISTINCT college_id) through active college_programs,College count is dynamic and excludes inactive low-confidence mappings.
+9,Architecture & Planning,4,6,3,true,COUNT(DISTINCT college_id) through active college_programs,College count is dynamic and excludes inactive low-confidence mappings; B.Arch is classified under Architecture & Planning only.
+10,Computer Applications,2,14,3,false,COUNT(DISTINCT college_id) through active college_programs,College count is dynamic and excludes inactive low-confidence mappings.
+11,Pharmacy,4,6,3,true,COUNT(DISTINCT college_id) through active college_programs,College count is dynamic and excludes inactive low-confidence mappings.
+12,Education,3,28,3,true,COUNT(DISTINCT college_id) through active college_programs,College count is dynamic and excludes inactive low-confidence mappings.

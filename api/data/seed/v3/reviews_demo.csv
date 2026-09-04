@@ -1,0 +1,451 @@
+id,college_id,user_id,rating,title,body,created_at,status,source_type,verification_status,notes
+1011,101,demo-user,5,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1012,101,demo-user,5,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1013,101,demo-user,5,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+751,75,demo-user,5,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+752,75,demo-user,5,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+753,75,demo-user,5,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+5661,566,demo-user,5,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+5662,566,demo-user,5,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+5663,566,demo-user,5,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+171,17,demo-user,5,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+172,17,demo-user,5,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+173,17,demo-user,5,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+771,77,demo-user,5,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+772,77,demo-user,5,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+773,77,demo-user,5,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+61,6,demo-user,5,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+62,6,demo-user,5,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+63,6,demo-user,5,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+8371,837,demo-user,5,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+8372,837,demo-user,5,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+8373,837,demo-user,5,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6351,635,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6352,635,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6353,635,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+831,83,demo-user,5,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+832,83,demo-user,5,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+833,83,demo-user,5,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+51,5,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+52,5,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+53,5,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+7961,796,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+7962,796,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+7963,796,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6271,627,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6272,627,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6273,627,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+151,15,demo-user,5,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+152,15,demo-user,5,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+153,15,demo-user,5,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+7411,741,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+7412,741,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+7413,741,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+841,84,demo-user,5,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+842,84,demo-user,5,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+843,84,demo-user,5,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+161,16,demo-user,5,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+162,16,demo-user,5,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+163,16,demo-user,5,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2371,237,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2372,237,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2373,237,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2071,207,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2072,207,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2073,207,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+4471,447,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+4472,447,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+4473,447,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+851,85,demo-user,5,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+852,85,demo-user,5,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+853,85,demo-user,5,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+211,21,demo-user,5,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+212,21,demo-user,5,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+213,21,demo-user,5,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11401,1140,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11402,1140,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11403,1140,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+791,79,demo-user,5,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+792,79,demo-user,5,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+793,79,demo-user,5,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+111,11,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+112,11,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+113,11,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1531,153,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1532,153,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1533,153,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+801,80,demo-user,5,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+802,80,demo-user,5,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+803,80,demo-user,5,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+101,10,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+102,10,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+103,10,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1281,128,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1282,128,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1283,128,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+8381,838,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+8382,838,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+8383,838,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+501,50,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+502,50,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+503,50,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1551,155,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1552,155,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1553,155,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6161,616,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6162,616,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6163,616,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+31,3,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+32,3,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+33,3,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11671,1167,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11672,1167,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11673,1167,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+981,98,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+982,98,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+983,98,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+9791,979,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+9792,979,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+9793,979,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+121,12,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+122,12,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+123,12,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+8351,835,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+8352,835,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+8353,835,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+9541,954,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+9542,954,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+9543,954,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1091,109,demo-user,5,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1092,109,demo-user,5,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1093,109,demo-user,5,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+451,45,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+452,45,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+453,45,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1581,158,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1582,158,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1583,158,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1001,100,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1002,100,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1003,100,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11851,1185,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11852,1185,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11853,1185,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+10261,1026,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+10262,1026,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+10263,1026,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11,1,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+12,1,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+13,1,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6561,656,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6562,656,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6563,656,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+871,87,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+872,87,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+873,87,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+5311,531,demo-user,5,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+5312,531,demo-user,5,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+5313,531,demo-user,5,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1031,103,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1032,103,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1033,103,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+931,93,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+932,93,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+933,93,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11421,1142,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11422,1142,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11423,1142,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+491,49,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+492,49,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+493,49,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+881,88,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+882,88,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+883,88,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2581,258,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2582,258,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2583,258,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2441,244,demo-user,5,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2442,244,demo-user,5,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2443,244,demo-user,5,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+201,20,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+202,20,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+203,20,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+891,89,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+892,89,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+893,89,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2861,286,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2862,286,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2863,286,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+941,94,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+942,94,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+943,94,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+311,31,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+312,31,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+313,31,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6701,670,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6702,670,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6703,670,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1481,148,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1482,148,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1483,148,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6851,685,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6852,685,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6853,685,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+9801,980,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+9802,980,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+9803,980,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+821,82,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+822,82,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+823,82,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6491,649,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6492,649,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6493,649,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+991,99,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+992,99,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+993,99,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+81,8,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+82,8,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+83,8,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+861,86,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+862,86,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+863,86,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1571,157,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1572,157,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1573,157,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+181,18,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+182,18,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+183,18,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2261,226,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2262,226,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2263,226,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+141,14,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+142,14,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+143,14,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1071,107,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1072,107,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1073,107,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+7061,706,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+7062,706,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+7063,706,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+531,53,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+532,53,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+533,53,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+9901,990,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+9902,990,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+9903,990,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11061,1106,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11062,1106,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11063,1106,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+951,95,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+952,95,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+953,95,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6551,655,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6552,655,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6553,655,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+10931,1093,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+10932,1093,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+10933,1093,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1081,108,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1082,108,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1083,108,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+781,78,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+782,78,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+783,78,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+221,22,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+222,22,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+223,22,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1431,143,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1432,143,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1433,143,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2021,202,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2022,202,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2023,202,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+3171,317,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+3172,317,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+3173,317,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+901,90,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+902,90,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+903,90,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+5871,587,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+5872,587,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+5873,587,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1061,106,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1062,106,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1063,106,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1301,130,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1302,130,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1303,130,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+811,81,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+812,81,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+813,81,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2271,227,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2272,227,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2273,227,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+7281,728,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+7282,728,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+7283,728,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+611,61,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+612,61,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+613,61,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+911,91,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+912,91,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+913,91,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1021,102,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1022,102,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1023,102,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+8661,866,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+8662,866,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+8663,866,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+41,4,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+42,4,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+43,4,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11461,1146,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11462,1146,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11463,1146,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1041,104,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1042,104,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1043,104,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+4281,428,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+4282,428,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+4283,428,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6261,626,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6262,626,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6263,626,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+251,25,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+252,25,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+253,25,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+3351,335,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+3352,335,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+3353,335,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+8551,855,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+8552,855,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+8553,855,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+541,54,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+542,54,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+543,54,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+3921,392,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+3922,392,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+3923,392,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+961,96,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+962,96,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+963,96,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1051,105,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1052,105,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1053,105,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11441,1144,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11442,1144,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11443,1144,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11491,1149,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11492,1149,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11493,1149,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1271,127,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1272,127,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1273,127,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+3521,352,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+3522,352,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+3523,352,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+331,33,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+332,33,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+333,33,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+10841,1084,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+10842,1084,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+10843,1084,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+471,47,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+472,47,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+473,47,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11431,1143,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11432,1143,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+11433,1143,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+8901,890,demo-user,5,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+8902,890,demo-user,5,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+8903,890,demo-user,5,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+921,92,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+922,92,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+923,92,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+9761,976,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+9762,976,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+9763,976,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+4981,498,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+4982,498,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+4983,498,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6761,676,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6762,676,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6763,676,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+421,42,demo-user,2,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+422,42,demo-user,2,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+423,42,demo-user,2,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+7921,792,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+7922,792,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+7923,792,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+971,97,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+972,97,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+973,97,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+10521,1052,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+10522,1052,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+10523,1052,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+8731,873,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+8732,873,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+8733,873,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+3191,319,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+3192,319,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+3193,319,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+231,23,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+232,23,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+233,23,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+8951,895,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+8952,895,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+8953,895,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+10971,1097,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+10972,1097,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+10973,1097,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+241,24,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+242,24,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+243,24,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+361,36,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+362,36,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+363,36,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1141,114,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1142,114,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+1143,114,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+401,40,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+402,40,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+403,40,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+3061,306,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+3062,306,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+3063,306,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+7901,790,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+7902,790,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+7903,790,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+9991,999,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+9992,999,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+9993,999,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+261,26,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+262,26,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+263,26,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+381,38,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+382,38,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+383,38,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+591,59,demo-user,4,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+592,59,demo-user,4,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+593,59,demo-user,4,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+9521,952,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+9522,952,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+9523,952,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+7141,714,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+7142,714,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+7143,714,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+761,76,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+762,76,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+763,76,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+351,35,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+352,35,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+353,35,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+7431,743,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+7432,743,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+7433,743,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2201,220,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2202,220,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+2203,220,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6211,621,demo-user,3,Demo overview,This is a seeded demo review record for UI testing. It does not represent a real student opinion.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6212,621,demo-user,3,Demo experience,Synthetic review content included only to exercise the review component in the MVP.,,demo,synthetic_demo,reviewed,Never present as a real student review.
+6213,621,demo-user,3,Demo note,Replace this record with a verified or authenticated user review before production use.,,demo,synthetic_demo,reviewed,Never present as a real student review.

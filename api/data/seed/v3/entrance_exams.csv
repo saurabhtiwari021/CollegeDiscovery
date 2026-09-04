@@ -1,0 +1,35 @@
+id,slug,name,level,conducting_body,website_url,is_active,source_type,verification_status,notes,exam_scope,admission_route,applicable_state
+1,jee-main,JEE Main,UG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Engineering.,national,entrance_exam,
+2,jee-advanced,JEE Advanced,UG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Engineering.,national,entrance_exam,
+3,cuet-ug,CUET-UG,UG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Commerce/Arts/Science/Management/selected programs.,national,entrance_exam,
+4,cuet-pg,CUET-PG,PG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Commerce/Arts/Science/Law/Management/selected programs.,national,entrance_exam,
+5,mht-cet,MHT-CET,UG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Engineering/Pharmacy/applicable routes.,state,entrance_exam,Maharashtra
+6,kcet,KCET,UG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Engineering/Pharmacy/other.,state,entrance_exam,Karnataka
+7,wbjee,WBJEE,UG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Engineering/Technology/Architecture.,state,entrance_exam,West Bengal
+8,comedk-uget,COMEDK UGET,UG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Engineering.,consortium,entrance_exam,
+9,ap-eamcet,AP EAMCET,UG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Engineering/Pharmacy/applicable routes.,state,entrance_exam,Andhra Pradesh
+10,ts-eamcet,TS EAMCET,UG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Engineering/Pharmacy/applicable routes.,state,entrance_exam,Telangana
+11,ojee,OJEE,UG/PG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Engineering/Management/Pharmacy/applicable routes.,state,entrance_exam,Odisha
+12,keam,KEAM,UG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Engineering/Architecture/Pharmacy/applicable routes.,state,entrance_exam,Kerala
+13,bitsat,BITSAT,UG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Engineering/selected programs.,institution,entrance_exam,
+14,viteee,VITEEE,UG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Engineering.,institution,entrance_exam,
+15,met,MET,UG/PG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Engineering/selected programs.,institution,entrance_exam,
+16,srmjeee,SRMJEEE,UG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Engineering.,institution,entrance_exam,
+17,cat,CAT,PG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: MBA/PGDM.,national,entrance_exam,
+18,xat,XAT,PG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: MBA/PGDM.,national,entrance_exam,
+19,cmat,CMAT,PG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: MBA/PGDM.,national,entrance_exam,
+20,mat,MAT,PG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Management.,national,entrance_exam,
+21,atma,ATMA,PG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Management.,national,entrance_exam,
+22,gmat,GMAT,PG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: MBA/PGDM/Executive MBA.,national,entrance_exam,
+23,gre,GRE,PG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Executive/postgraduate management/design routes.,national,entrance_exam,
+24,ipmat,IPMAT,UG/Integrated,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Management participating programs.,institution,entrance_exam,
+25,neet-ug,NEET-UG,UG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: MBBS/BDS/selected health programs.,national,entrance_exam,
+26,neet-pg,NEET-PG,PG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: PG medical programs.,national,entrance_exam,
+27,clat,CLAT,UG/PG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Law.,national,entrance_exam,
+28,ailet,AILET,UG/PG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Law/NLU Delhi routes.,institution,entrance_exam,
+29,nata,NATA,UG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Architecture.,national,entrance_exam,
+30,uceed,UCEED,UG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Design participating institutes.,national,entrance_exam,
+31,nid-dat,NID DAT,UG/PG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Design/NID programs.,institution,entrance_exam,
+32,nift-entrance,NIFT Entrance,UG/PG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: Fashion/design.,institution,entrance_exam,
+33,gate,GATE,PG,,,true,curated,reviewed,Route seeded from supplied MVP specification; scope: M.Tech/Engineering/technology.,national,entrance_exam,
+34,nlsat-llb,NLSAT-LLB,PG,National Law School of India University,https://www.nls.ac.in/programme/3-year-llb-hons/,true,official,verified,Institution-specific admissions route for NLSIU 3-year LL.B.,institution,entrance_exam,

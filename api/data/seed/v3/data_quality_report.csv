@@ -1,0 +1,11 @@
+metric,value,expected,status
+base_colleges,1203,1203,PASS
+college_program_rows_total,3570,>=3000,PASS
+college_program_rows_active,2321,>=600,PASS
+active_colleges_with_program_mappings,746,>705,PASS
+low_confidence_rows_reviewed,1373,1373,PASS
+low_confidence_rows_promoted,124,>0,PASS
+low_confidence_rows_remaining_inactive,1249,audit-required,PASS
+removed_mappings,400,audit trail retained,PASS
+city_missing_count,286,nullable; never invented,PASS
+nirf_missing_count,996,nullable; never 0,PASS
