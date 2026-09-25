@@ -1,95 +1,406 @@
 # College Discovery Platform
 
-A full-stack college discovery and comparison platform.
+A full-stack college discovery and comparison platform designed to help students find colleges through **study goals, programs, entrance exams, fees, placements, rankings, and other admissions information**.
+
+The platform connects a student's broad study goal to specific programs and then to the colleges that actually offer those programs.
+
+---
+
+## Screenshots
+
+### Discover Colleges
+
+![College Discovery Home](screenshots/home.png)
+
+### College Search & Filtering
+
+![College Search](screenshots/college-list.png)
+
+### Study Goal Discovery
+
+![Study Goals](screenshots/study-goals.png)
+
+### College Details
+
+![College Details](screenshots/college-details.png)
+
+---
 
 ## Features
 
 - Study goal → program discovery
-- College search and filtering
-- Program-specific entrance exam filtering
+- Search colleges by name
+- Filter colleges by state and institution type
+- Program-specific entrance examination filtering
 - College comparison
+- Save/favorite colleges
 - Authentication
-- Saved colleges
+- Detailed college profiles
+- Program information
+- Fees and placement information
+- NIRF ranking information
+- Normalized college-program-exam data model
+- PostgreSQL database with Prisma ORM
+- Seeded dataset containing **1,203 colleges**
+- Data validation and quality-reporting scripts
 
-## Repository layout
+---
 
+## Tech Stack
+
+### Frontend
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+
+### Backend
+
+- Next.js API routes
+- TypeScript
+- Prisma ORM
+- PostgreSQL
+
+### Database / Infrastructure
+
+- PostgreSQL
+- Prisma
+- Neon / local PostgreSQL
+- Vercel
+- Render / Railway
+
+---
+
+## Architecture
+
+```text
+┌─────────────────────────────────────┐
+│          Next.js Frontend           │
+│       React + TypeScript            │
+│                                     │
+│        localhost:3000               │
+└──────────────────┬──────────────────┘
+                   │
+                   ▼
+┌─────────────────────────────────────┐
+│           API Backend               │
+│      Next.js API Routes             │
+│                                     │
+│        localhost:4000               │
+└──────────────────┬──────────────────┘
+                   │
+                   ▼
+┌─────────────────────────────────────┐
+│             Prisma                  │
+│              ORM                    │
+└──────────────────┬──────────────────┘
+                   │
+                   ▼
+┌─────────────────────────────────────┐
+│          PostgreSQL                 │
+│        College Discovery DB         │
+└─────────────────────────────────────┘
 ```
+
+The frontend and backend are maintained as separate applications. The frontend has no database of its own, while the backend handles database access and API functionality.
+
+---
+
+## Core Data Model
+
+The central design of the platform is the relationship between a student's goal, a program, a college, and the entrance examination accepted for that specific program.
+
+```text
+Study Goal
+    │
+    ▼
+Program
+    │
+    ▼
+CollegeProgram
+    │
+    ▼
+CollegeProgramExam
+```
+
+For example:
+
+```text
+Study Goal
+    ↓
+Engineering
+    ↓
+B.Tech
+    ↓
+College + B.Tech
+    ↓
+Accepted entrance examination
+```
+
+This normalized structure allows the application to support both **goal-based discovery** and **exam-based filtering** without maintaining disconnected datasets.
+
+---
+
+## Dataset
+
+The current MVP contains:
+
+| Metric | Count |
+|---|---:|
+| Colleges | 1,203 |
+| Programs | 54 |
+| Study Goals | 12 |
+| States Covered | 42 |
+
+The dataset is stored under:
+
+```text
+api/data/seed/
+```
+
+The project also contains validation and data-quality scripts to help identify invalid or incomplete records before seeding the database.
+
+---
+
+## Repository Structure
+
+```text
 college-discovery-mvp/
 │
-├── frontend/     Next.js 14 + React + TypeScript UI (see frontend/README.md)
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── README.md
 │
-├── api/          Next.js API routes + Prisma + PostgreSQL (see api/README.md)
+├── api/
+│   ├── src/
+│   ├── prisma/
+│   ├── scripts/
+│   ├── data/
+│   ├── package.json
+│   └── README.md
+│
+├── screenshots/
+│   ├── home.png
+│   ├── college-list.png
+│   ├── study-goals.png
+│   └── college-details.png
 │
 ├── README.md
 └── .gitignore
 ```
 
-The two apps are independently deployable — `frontend/` has no database of
-its own, and `api/` has no UI. Each subproject's own README covers its setup,
-environment variables, and implementation details in full; this file is the
-60-second overview.
+---
 
-## Architecture
+## Quick Start
 
-```
-Next.js + React + TypeScript   (frontend/)
-        ↓  same-origin /api/* rewrite, no CORS
-Next.js API Routes             (api/)
-        ↓
-Prisma ORM
-        ↓
-PostgreSQL
-```
+### Prerequisites
 
-**Deployment topology:**
+Make sure you have:
 
-```
-Frontend → Vercel
-Backend  → Render/Railway
-Database → PostgreSQL/Neon
-```
+- Node.js 20+
+- npm
+- PostgreSQL
+- Git
 
-### The core data model
+---
 
-The strongest design decision in this project is the chain that connects a
-student's goal to a concrete, filterable admissions requirement:
+## 1. Backend
 
-```
-Study Goal
-   ↓
-Program
-   ↓
-CollegeProgram
-   ↓
-CollegeProgramExam
-```
-
-A student picks a study goal (e.g. "become a doctor"), which maps to one or
-more programs (e.g. MBBS). Each program is offered by a subset of colleges
-via `CollegeProgram` — this is the join that carries per-college specifics
-like fees and duration. `CollegeProgramExam` then attaches the entrance
-exam(s) that specific college+program combination actually accepts, since
-the same program can require different exams at different institutions.
-This chain is what makes goal-based discovery and exam-based filtering both
-possible off the same normalized dataset, instead of two disconnected
-features.
-
-## Quickstart
+Open a terminal:
 
 ```bash
-# 1. Backend
 cd api
-npm install                 # also runs `prisma generate`
-cp .env.example .env        # set DATABASE_URL
-createdb college_discovery  # or point DATABASE_URL at any Postgres instance
-npm run dev                 # http://localhost:4000
-
-# 2. Frontend (separate terminal)
-cd frontend
 npm install
-cp .env.local.example .env.local   # BACKEND_URL defaults to http://localhost:4000
-npm run dev                        # http://localhost:3000
 ```
 
-See `api/README.md` and `frontend/README.md` for full setup, data seeding,
-and deployment instructions.
+Create the environment file:
+
+```bash
+cp .env.example .env
+```
+
+On Windows PowerShell:
+
+```powershell
+copy .env.example .env
+```
+
+Configure your PostgreSQL connection:
+
+```env
+DATABASE_URL="postgresql://postgres:YOUR_PASSWORD@localhost:5432/college_discovery"
+```
+
+Generate Prisma Client:
+
+```bash
+npm run db:generate
+```
+
+Apply migrations:
+
+```bash
+npx prisma migrate deploy
+```
+
+Seed the database:
+
+```bash
+npm run db:reset-and-seed
+```
+
+Start the backend:
+
+```bash
+npm run dev
+```
+
+Backend:
+
+```text
+http://localhost:4000
+```
+
+---
+
+## 2. Frontend
+
+Open a second terminal:
+
+```bash
+cd frontend
+npm install
+```
+
+Create the environment file:
+
+```bash
+cp .env.local.example .env.local
+```
+
+On Windows PowerShell:
+
+```powershell
+copy .env.local.example .env.local
+```
+
+Set:
+
+```env
+BACKEND_URL=http://localhost:4000
+```
+
+Start the frontend:
+
+```bash
+npm run dev
+```
+
+Frontend:
+
+```text
+http://localhost:3000
+```
+
+---
+
+## Environment Variables
+
+### Backend
+
+`api/.env`
+
+```env
+DATABASE_URL="postgresql://postgres:YOUR_PASSWORD@localhost:5432/college_discovery"
+AUTH_SECRET="your-secret"
+```
+
+### Frontend
+
+`frontend/.env.local`
+
+```env
+BACKEND_URL="http://localhost:4000"
+```
+
+**Never commit real `.env` or `.env.local` files to GitHub.**
+
+---
+
+## Data Validation
+
+The backend includes scripts for validating and reporting on the seeded dataset.
+
+Examples:
+
+```bash
+npm run validate-dataset
+```
+
+and:
+
+```bash
+npm run report-data-quality
+```
+
+These help detect malformed records and data-quality issues before the data is used by the application.
+
+---
+
+## Deployment
+
+The application can be deployed as separate services:
+
+```text
+Frontend
+   │
+   └── Vercel
+
+Backend
+   │
+   └── Render / Railway
+
+Database
+   │
+   └── PostgreSQL / Neon
+```
+
+The frontend requires the deployed backend URL through `BACKEND_URL`.
+
+The backend requires a PostgreSQL `DATABASE_URL`.
+
+---
+
+## Future Improvements
+
+Planned improvements include:
+
+- More verified college and program data
+- College recommendation engine
+- Personalized admission probability estimation
+- Advanced comparison metrics
+- Better placement analytics
+- Scholarship discovery
+- Cutoff history
+- More entrance examinations
+- User-specific recommendations
+- AI-assisted college discovery
+- Improved data sourcing and verification
+- Production-grade authentication and authorization
+
+---
+
+## Project Status
+
+**Current stage:** MVP / active development
+
+The core discovery, filtering, college details, comparison, saved-college, authentication, and database workflows are implemented. The next phase focuses on improving data coverage, verification, recommendation capabilities, and production deployment.
+
+---
+
+## License
+
+This project is currently intended for educational and development purposes.
