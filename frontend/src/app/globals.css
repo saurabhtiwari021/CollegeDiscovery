@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f5f4ef;
+  color: #171b1f;
+  font-feature-settings: "tnum" 1, "cv11" 1;
+}
+
+::selection {
+  background-color: #f1c784;
+  color: #0d1a2b;
+}
+
+* {
+  border-color: #dedad0;
+}
+
+:focus-visible {
+  outline: 2px solid #1b3457;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.container-content {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .container-content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* Custom range slider (fees / rating / placement) */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 3px;
+  background: #c7c2b4;
+  border-radius: 999px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #1b3457;
+  border: 2px solid #f5f4ef;
+  box-shadow: 0 0 0 1px #1b3457;
+  cursor: pointer;
+  margin-top: -6px;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #1b3457;
+  border: 2px solid #f5f4ef;
+  box-shadow: 0 0 0 1px #1b3457;
+  cursor: pointer;
+}
+
+/* Skeleton shimmer */
+@keyframes shimmer {
+  0% {
+    background-position: -300px 0;
+  }
+  100% {
+    background-position: 300px 0;
+  }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #ebe9e1 25%, #f3f1ea 37%, #ebe9e1 63%);
+  background-size: 600px 100%;
+  animation: shimmer 1.4s ease infinite;
+}

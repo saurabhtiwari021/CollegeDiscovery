@@ -1,0 +1,21 @@
+id,name,slug
+1,IIT,iit
+2,NIT,nit
+3,IIIT,iiit
+4,IIM,iim
+5,NLU,nlu
+6,Medical College,medical-college
+7,University,university
+8,College,college
+9,Engineering College,engineering-college
+10,Law School,law-school
+11,Dental College,dental-college
+12,Pharmacy College,pharmacy-college
+13,Nursing College,nursing-college
+14,Architecture College,architecture-college
+15,Design Institute,design-institute
+16,Management Institute,management-institute
+17,Polytechnic,polytechnic
+18,Education College,education-college
+19,Science Institute,science-institute
+20,Deemed University,deemed-university

@@ -1,0 +1,18 @@
+{
+  "dataset": "College Discovery MVP Dataset",
+  "version": "final_v2_accuracy_pass",
+  "date": "2026-09-03",
+  "base_colleges": 1203,
+  "programs": 54,
+  "college_program_rows": 3570,
+  "active_college_program_rows": 2321,
+  "active_colleges": 746,
+  "low_confidence_reviewed": 1373,
+  "low_confidence_promoted": 124,
+  "low_confidence_remaining_inactive": 1249,
+  "institution_type_corrections": [
+    "IIIT\u2192IIIT",
+    "JIIT/KIIT\u2192Deemed University",
+    "IIT management departments\u2192Management Institute"
+  ]
+}

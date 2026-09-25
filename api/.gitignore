@@ -1,0 +1,23 @@
+# dependencies
+node_modules
+
+# next.js build output
+.next
+out
+tsconfig.tsbuildinfo
+next-env.d.ts
+
+# env files — never commit real secrets, only .env.example is tracked
+.env
+.env.*.local
+.env.local
+
+# generated prisma client — regenerated via `postinstall` (npm run db:generate)
+src/generated
+
+# logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store

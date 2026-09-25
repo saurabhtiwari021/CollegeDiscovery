@@ -1,0 +1,401 @@
+college_id,college_name,program_id,program,reason
+96,BITS Goa,1,B.Tech,institution_specific_curated
+96,BITS Goa,3,M.Tech,institution_specific_curated
+97,BITS Hyderabad,1,B.Tech,institution_specific_curated
+97,BITS Hyderabad,3,M.Tech,institution_specific_curated
+98,BITS Pilani,1,B.Tech,official_program_page
+98,BITS Pilani,3,M.Tech,official_program_page
+99,AIIMS Bhopal,31,B.Sc Nursing,institution_type_aiims
+100,AIIMS Bhubaneswar,31,B.Sc Nursing,institution_type_aiims
+101,AIIMS Delhi,31,B.Sc Nursing,institution_type_aiims
+102,AIIMS Gorakhpur,31,B.Sc Nursing,institution_type_aiims
+103,AIIMS Jodhpur,31,B.Sc Nursing,institution_type_aiims
+104,AIIMS Kalyani,31,B.Sc Nursing,institution_type_aiims
+105,AIIMS Mangalagiri,31,B.Sc Nursing,institution_type_aiims
+106,AIIMS Nagpur,31,B.Sc Nursing,institution_type_aiims
+107,AIIMS Patna,31,B.Sc Nursing,institution_type_aiims
+108,AIIMS Raipur,31,B.Sc Nursing,institution_type_aiims
+109,AIIMS Rishikesh,31,B.Sc Nursing,institution_type_aiims
+110,AAFT University of Media and Arts,1,B.Tech,explicit_name_multi_domain_signal
+110,AAFT University of Media and Arts,2,B.E.,explicit_name_multi_domain_signal
+110,AAFT University of Media and Arts,3,M.Tech,explicit_name_multi_domain_signal
+110,AAFT University of Media and Arts,4,M.E.,explicit_name_multi_domain_signal
+122,"Agnel Polytechnic, South Goa",1,B.Tech,explicit_name_signal_polytechnic
+122,"Agnel Polytechnic, South Goa",2,B.E.,explicit_name_signal_polytechnic
+122,"Agnel Polytechnic, South Goa",3,M.Tech,explicit_name_signal_polytechnic
+122,"Agnel Polytechnic, South Goa",4,M.E.,explicit_name_signal_polytechnic
+131,"Alliance College of Engineering and Design, Bangalore",19,BFA,explicit_name_multi_domain_signal
+137,Ambala Institute of Hotel Management,7,MBA,removed_unsupported_specialization
+137,Ambala Institute of Hotel Management,9,BBA,removed_unsupported_specialization
+156,Ananta Institute of Hotel Management & Allied studies,7,MBA,removed_unsupported_specialization
+156,Ananta Institute of Hotel Management & Allied studies,9,BBA,removed_unsupported_specialization
+166,Army College of Medical Science,16,BA,explicit_name_multi_domain_signal
+184,Atal Bihari Vajpayee Indian Institute of Information Technology and Management,46,BCA,explicit_name_multi_domain_signal
+184,Atal Bihari Vajpayee Indian Institute of Information Technology and Management,47,MCA,explicit_name_multi_domain_signal
+186,Atal Medical and Research University,16,BA,explicit_name_multi_domain_signal
+194,B.S. Abdur Rahman Crescent Institute of Science,1,B.Tech,explicit_name_multi_domain_signal
+194,B.S. Abdur Rahman Crescent Institute of Science,2,B.E.,explicit_name_multi_domain_signal
+194,B.S. Abdur Rahman Crescent Institute of Science,3,M.Tech,explicit_name_multi_domain_signal
+194,B.S. Abdur Rahman Crescent Institute of Science,4,M.E.,explicit_name_multi_domain_signal
+282,Chandigarh College of Hotel Management and Catering Technology Landran,1,B.Tech,removed_unsupported_specialization
+282,Chandigarh College of Hotel Management and Catering Technology Landran,2,B.E.,removed_unsupported_specialization
+282,Chandigarh College of Hotel Management and Catering Technology Landran,3,M.Tech,removed_unsupported_specialization
+282,Chandigarh College of Hotel Management and Catering Technology Landran,4,M.E.,removed_unsupported_specialization
+282,Chandigarh College of Hotel Management and Catering Technology Landran,7,MBA,removed_unsupported_specialization
+282,Chandigarh College of Hotel Management and Catering Technology Landran,9,BBA,removed_unsupported_specialization
+285,Chandigarh Institute of Hotel Management and Catering Technology,1,B.Tech,removed_unsupported_specialization
+285,Chandigarh Institute of Hotel Management and Catering Technology,2,B.E.,removed_unsupported_specialization
+285,Chandigarh Institute of Hotel Management and Catering Technology,3,M.Tech,removed_unsupported_specialization
+285,Chandigarh Institute of Hotel Management and Catering Technology,4,M.E.,removed_unsupported_specialization
+285,Chandigarh Institute of Hotel Management and Catering Technology,7,MBA,removed_unsupported_specialization
+285,Chandigarh Institute of Hotel Management and Catering Technology,9,BBA,removed_unsupported_specialization
+314,CMC Vellore,31,B.Sc Nursing,institution_type_medical
+329,CT Institute of Hospitality Management,7,MBA,removed_unsupported_specialization
+329,CT Institute of Hospitality Management,9,BBA,removed_unsupported_specialization
+330,Culinary College of Hotel Management and Catering Technology,1,B.Tech,removed_unsupported_specialization
+330,Culinary College of Hotel Management and Catering Technology,2,B.E.,removed_unsupported_specialization
+330,Culinary College of Hotel Management and Catering Technology,3,M.Tech,removed_unsupported_specialization
+330,Culinary College of Hotel Management and Catering Technology,4,M.E.,removed_unsupported_specialization
+330,Culinary College of Hotel Management and Catering Technology,7,MBA,removed_unsupported_specialization
+330,Culinary College of Hotel Management and Catering Technology,9,BBA,removed_unsupported_specialization
+352,Delhi Technological University,7,MBA,explicit_name_multi_domain_signal
+352,Delhi Technological University,9,BBA,explicit_name_multi_domain_signal
+352,Delhi Technological University,13,B.Com,explicit_name_multi_domain_signal
+352,Delhi Technological University,16,BA,explicit_name_multi_domain_signal
+352,Delhi Technological University,22,B.Sc,explicit_name_multi_domain_signal
+352,Delhi Technological University,46,BCA,explicit_name_multi_domain_signal
+358,"Department of Management, BITS",9,BBA,institution_specific_curated
+364,Dibrugarh Polytechnic,1,B.Tech,explicit_name_signal_polytechnic
+364,Dibrugarh Polytechnic,2,B.E.,explicit_name_signal_polytechnic
+364,Dibrugarh Polytechnic,3,M.Tech,explicit_name_signal_polytechnic
+364,Dibrugarh Polytechnic,4,M.E.,explicit_name_signal_polytechnic
+388,Dr. B. R. Ambedkar Polytechnic College,1,B.Tech,explicit_name_signal_polytechnic
+388,Dr. B. R. Ambedkar Polytechnic College,2,B.E.,explicit_name_signal_polytechnic
+388,Dr. B. R. Ambedkar Polytechnic College,3,M.Tech,explicit_name_signal_polytechnic
+388,Dr. B. R. Ambedkar Polytechnic College,4,M.E.,explicit_name_signal_polytechnic
+399,Dr.Ambedkar Institute of Hotel Management Catering and Nutrition,7,MBA,removed_unsupported_specialization
+399,Dr.Ambedkar Institute of Hotel Management Catering and Nutrition,9,BBA,removed_unsupported_specialization
+401,DTU Delhi Technological University,7,MBA,explicit_name_multi_domain_signal
+401,DTU Delhi Technological University,9,BBA,explicit_name_multi_domain_signal
+401,DTU Delhi Technological University,13,B.Com,explicit_name_multi_domain_signal
+401,DTU Delhi Technological University,16,BA,explicit_name_multi_domain_signal
+401,DTU Delhi Technological University,22,B.Sc,explicit_name_multi_domain_signal
+401,DTU Delhi Technological University,46,BCA,explicit_name_multi_domain_signal
+410,"Faculty of Hospitality Management and Catering Technology, M. S. Ramaiah University of Applied Sciences",1,B.Tech,removed_unsupported_specialization
+410,"Faculty of Hospitality Management and Catering Technology, M. S. Ramaiah University of Applied Sciences",2,B.E.,removed_unsupported_specialization
+410,"Faculty of Hospitality Management and Catering Technology, M. S. Ramaiah University of Applied Sciences",3,M.Tech,removed_unsupported_specialization
+410,"Faculty of Hospitality Management and Catering Technology, M. S. Ramaiah University of Applied Sciences",4,M.E.,removed_unsupported_specialization
+410,"Faculty of Hospitality Management and Catering Technology, M. S. Ramaiah University of Applied Sciences",7,MBA,removed_unsupported_specialization
+410,"Faculty of Hospitality Management and Catering Technology, M. S. Ramaiah University of Applied Sciences",9,BBA,removed_unsupported_specialization
+447,GNLU Gandhinagar,33,LLB,institution_type_nlu
+471,Government Polytechnic College,1,B.Tech,explicit_name_signal_polytechnic
+471,Government Polytechnic College,2,B.E.,explicit_name_signal_polytechnic
+471,Government Polytechnic College,3,M.Tech,explicit_name_signal_polytechnic
+471,Government Polytechnic College,4,M.E.,explicit_name_signal_polytechnic
+472,"Government Polytechnic College, Anantnag",1,B.Tech,explicit_name_signal_polytechnic
+472,"Government Polytechnic College, Anantnag",2,B.E.,explicit_name_signal_polytechnic
+472,"Government Polytechnic College, Anantnag",3,M.Tech,explicit_name_signal_polytechnic
+472,"Government Polytechnic College, Anantnag",4,M.E.,explicit_name_signal_polytechnic
+473,"Government Polytechnic College, Bandipora",1,B.Tech,explicit_name_signal_polytechnic
+473,"Government Polytechnic College, Bandipora",2,B.E.,explicit_name_signal_polytechnic
+473,"Government Polytechnic College, Bandipora",3,M.Tech,explicit_name_signal_polytechnic
+473,"Government Polytechnic College, Bandipora",4,M.E.,explicit_name_signal_polytechnic
+474,"Government Polytechnic College, Baramulla",1,B.Tech,explicit_name_signal_polytechnic
+474,"Government Polytechnic College, Baramulla",2,B.E.,explicit_name_signal_polytechnic
+474,"Government Polytechnic College, Baramulla",3,M.Tech,explicit_name_signal_polytechnic
+474,"Government Polytechnic College, Baramulla",4,M.E.,explicit_name_signal_polytechnic
+475,"Government Polytechnic College, Budgam",1,B.Tech,explicit_name_signal_polytechnic
+475,"Government Polytechnic College, Budgam",2,B.E.,explicit_name_signal_polytechnic
+475,"Government Polytechnic College, Budgam",3,M.Tech,explicit_name_signal_polytechnic
+475,"Government Polytechnic College, Budgam",4,M.E.,explicit_name_signal_polytechnic
+476,"Government Polytechnic College, Sopore",1,B.Tech,explicit_name_signal_polytechnic
+476,"Government Polytechnic College, Sopore",2,B.E.,explicit_name_signal_polytechnic
+476,"Government Polytechnic College, Sopore",3,M.Tech,explicit_name_signal_polytechnic
+476,"Government Polytechnic College, Sopore",4,M.E.,explicit_name_signal_polytechnic
+477,Government Polytechnic for Women,1,B.Tech,explicit_name_signal_polytechnic
+477,Government Polytechnic for Women,2,B.E.,explicit_name_signal_polytechnic
+477,Government Polytechnic for Women,3,M.Tech,explicit_name_signal_polytechnic
+477,Government Polytechnic for Women,4,M.E.,explicit_name_signal_polytechnic
+478,"Government Polytechnic For Women, Jammu",1,B.Tech,explicit_name_signal_polytechnic
+478,"Government Polytechnic For Women, Jammu",2,B.E.,explicit_name_signal_polytechnic
+478,"Government Polytechnic For Women, Jammu",3,M.Tech,explicit_name_signal_polytechnic
+478,"Government Polytechnic For Women, Jammu",4,M.E.,explicit_name_signal_polytechnic
+479,"Government Polytechnic Kargil, Kargil",1,B.Tech,explicit_name_signal_polytechnic
+479,"Government Polytechnic Kargil, Kargil",2,B.E.,explicit_name_signal_polytechnic
+479,"Government Polytechnic Kargil, Kargil",3,M.Tech,explicit_name_signal_polytechnic
+479,"Government Polytechnic Kargil, Kargil",4,M.E.,explicit_name_signal_polytechnic
+480,"Government Polytechnic Laying, Itanagar",1,B.Tech,explicit_name_signal_polytechnic
+480,"Government Polytechnic Laying, Itanagar",2,B.E.,explicit_name_signal_polytechnic
+480,"Government Polytechnic Laying, Itanagar",3,M.Tech,explicit_name_signal_polytechnic
+480,"Government Polytechnic Laying, Itanagar",4,M.E.,explicit_name_signal_polytechnic
+481,"Government Polytechnic Roing, Roing",1,B.Tech,explicit_name_signal_polytechnic
+481,"Government Polytechnic Roing, Roing",2,B.E.,explicit_name_signal_polytechnic
+481,"Government Polytechnic Roing, Roing",3,M.Tech,explicit_name_signal_polytechnic
+481,"Government Polytechnic Roing, Roing",4,M.E.,explicit_name_signal_polytechnic
+482,"Government Polytechnic Sedem, Tuensang",1,B.Tech,explicit_name_signal_polytechnic
+482,"Government Polytechnic Sedem, Tuensang",2,B.E.,explicit_name_signal_polytechnic
+482,"Government Polytechnic Sedem, Tuensang",3,M.Tech,explicit_name_signal_polytechnic
+482,"Government Polytechnic Sedem, Tuensang",4,M.E.,explicit_name_signal_polytechnic
+483,"Government Polytechnic Seithekema C, Dimapur",1,B.Tech,explicit_name_signal_polytechnic
+483,"Government Polytechnic Seithekema C, Dimapur",2,B.E.,explicit_name_signal_polytechnic
+483,"Government Polytechnic Seithekema C, Dimapur",3,M.Tech,explicit_name_signal_polytechnic
+483,"Government Polytechnic Seithekema C, Dimapur",4,M.E.,explicit_name_signal_polytechnic
+484,Government Polytechnic Tsunazho,1,B.Tech,explicit_name_signal_polytechnic
+484,Government Polytechnic Tsunazho,2,B.E.,explicit_name_signal_polytechnic
+484,Government Polytechnic Tsunazho,3,M.Tech,explicit_name_signal_polytechnic
+484,Government Polytechnic Tsunazho,4,M.E.,explicit_name_signal_polytechnic
+485,"Government Polytechnic, Bicholim",1,B.Tech,explicit_name_signal_polytechnic
+485,"Government Polytechnic, Bicholim",2,B.E.,explicit_name_signal_polytechnic
+485,"Government Polytechnic, Bicholim",3,M.Tech,explicit_name_signal_polytechnic
+485,"Government Polytechnic, Bicholim",4,M.E.,explicit_name_signal_polytechnic
+486,"Government Polytechnic, Curchorem",1,B.Tech,explicit_name_signal_polytechnic
+486,"Government Polytechnic, Curchorem",2,B.E.,explicit_name_signal_polytechnic
+486,"Government Polytechnic, Curchorem",3,M.Tech,explicit_name_signal_polytechnic
+486,"Government Polytechnic, Curchorem",4,M.E.,explicit_name_signal_polytechnic
+487,"Government Polytechnic, Daman",1,B.Tech,explicit_name_signal_polytechnic
+487,"Government Polytechnic, Daman",2,B.E.,explicit_name_signal_polytechnic
+487,"Government Polytechnic, Daman",3,M.Tech,explicit_name_signal_polytechnic
+487,"Government Polytechnic, Daman",4,M.E.,explicit_name_signal_polytechnic
+488,"Government Polytechnic, Imphal",1,B.Tech,explicit_name_signal_polytechnic
+488,"Government Polytechnic, Imphal",2,B.E.,explicit_name_signal_polytechnic
+488,"Government Polytechnic, Imphal",3,M.Tech,explicit_name_signal_polytechnic
+488,"Government Polytechnic, Imphal",4,M.E.,explicit_name_signal_polytechnic
+489,"Government Polytechnic, Kohima",1,B.Tech,explicit_name_signal_polytechnic
+489,"Government Polytechnic, Kohima",2,B.E.,explicit_name_signal_polytechnic
+489,"Government Polytechnic, Kohima",3,M.Tech,explicit_name_signal_polytechnic
+489,"Government Polytechnic, Kohima",4,M.E.,explicit_name_signal_polytechnic
+490,"Government Polytechnic, Kulgam",1,B.Tech,explicit_name_signal_polytechnic
+490,"Government Polytechnic, Kulgam",2,B.E.,explicit_name_signal_polytechnic
+490,"Government Polytechnic, Kulgam",3,M.Tech,explicit_name_signal_polytechnic
+490,"Government Polytechnic, Kulgam",4,M.E.,explicit_name_signal_polytechnic
+495,"Govt. Gandhi Memorial Science College, Jammu",1,B.Tech,explicit_name_multi_domain_signal
+495,"Govt. Gandhi Memorial Science College, Jammu",2,B.E.,explicit_name_multi_domain_signal
+495,"Govt. Gandhi Memorial Science College, Jammu",3,M.Tech,explicit_name_multi_domain_signal
+495,"Govt. Gandhi Memorial Science College, Jammu",4,M.E.,explicit_name_multi_domain_signal
+520,Heritage Institute of Hotel and Tourism,16,BA,removed_unsupported_specialization
+531,Homi Bhabha National Institute,7,MBA,research_institute_without_matching_canonical_program
+531,Homi Bhabha National Institute,9,BBA,research_institute_without_matching_canonical_program
+531,Homi Bhabha National Institute,13,B.Com,research_institute_without_matching_canonical_program
+531,Homi Bhabha National Institute,16,BA,research_institute_without_matching_canonical_program
+531,Homi Bhabha National Institute,22,B.Sc,research_institute_without_matching_canonical_program
+531,Homi Bhabha National Institute,46,BCA,research_institute_without_matching_canonical_program
+532,Hotel & Catering Management Institute,7,MBA,removed_unsupported_specialization
+532,Hotel & Catering Management Institute,9,BBA,removed_unsupported_specialization
+552,IISc Bangalore,7,MBA,research_institute_without_matching_canonical_program
+552,IISc Bangalore,9,BBA,research_institute_without_matching_canonical_program
+552,IISc Bangalore,13,B.Com,research_institute_without_matching_canonical_program
+552,IISc Bangalore,16,BA,research_institute_without_matching_canonical_program
+552,IISc Bangalore,22,B.Sc,research_institute_without_matching_canonical_program
+552,IISc Bangalore,46,BCA,research_institute_without_matching_canonical_program
+559,"Indian Institute of Information Technology , Kottayam",46,BCA,explicit_name_multi_domain_signal
+559,"Indian Institute of Information Technology , Kottayam",47,MCA,explicit_name_multi_domain_signal
+560,Indian Institute of Information Technology Design and,19,BFA,explicit_name_multi_domain_signal
+560,Indian Institute of Information Technology Design and,46,BCA,explicit_name_multi_domain_signal
+560,Indian Institute of Information Technology Design and,47,MCA,explicit_name_multi_domain_signal
+561,Indian Institute of Information Technology Design and Manufacturing,19,BFA,explicit_name_multi_domain_signal
+561,Indian Institute of Information Technology Design and Manufacturing,38,B.Des,explicit_name_multi_domain_signal
+561,Indian Institute of Information Technology Design and Manufacturing,39,M.Des,explicit_name_multi_domain_signal
+561,Indian Institute of Information Technology Design and Manufacturing,46,BCA,explicit_name_multi_domain_signal
+561,Indian Institute of Information Technology Design and Manufacturing,47,MCA,explicit_name_multi_domain_signal
+562,Indian Institute of Information Technology Sri City,46,BCA,explicit_name_multi_domain_signal
+562,Indian Institute of Information Technology Sri City,47,MCA,explicit_name_multi_domain_signal
+563,Indian Institute of Information Technology Vadodara,46,BCA,explicit_name_multi_domain_signal
+563,Indian Institute of Information Technology Vadodara,47,MCA,explicit_name_multi_domain_signal
+564,"Indian Institute of Information Technology, Bhopal",46,BCA,explicit_name_multi_domain_signal
+564,"Indian Institute of Information Technology, Bhopal",47,MCA,explicit_name_multi_domain_signal
+565,Indian Institute of Science,16,BA,explicit_name_multi_domain_signal
+566,"Indian Institute of Science, Bengaluru",7,MBA,explicit_name_multi_domain_signal
+566,"Indian Institute of Science, Bengaluru",9,BBA,explicit_name_multi_domain_signal
+566,"Indian Institute of Science, Bengaluru",13,B.Com,explicit_name_multi_domain_signal
+566,"Indian Institute of Science, Bengaluru",16,BA,explicit_name_multi_domain_signal
+566,"Indian Institute of Science, Bengaluru",46,BCA,explicit_name_multi_domain_signal
+575,Indira Gandhi Polytechnic College,1,B.Tech,explicit_name_signal_polytechnic
+575,Indira Gandhi Polytechnic College,2,B.E.,explicit_name_signal_polytechnic
+575,Indira Gandhi Polytechnic College,3,M.Tech,explicit_name_signal_polytechnic
+575,Indira Gandhi Polytechnic College,4,M.E.,explicit_name_signal_polytechnic
+578,Indraprastha Institute of Information Technology,46,BCA,explicit_name_multi_domain_signal
+578,Indraprastha Institute of Information Technology,47,MCA,explicit_name_multi_domain_signal
+584,Institute of Advanced Studies in Education,1,B.Tech,explicit_name_multi_domain_signal
+584,Institute of Advanced Studies in Education,2,B.E.,explicit_name_multi_domain_signal
+584,Institute of Advanced Studies in Education,3,M.Tech,explicit_name_multi_domain_signal
+584,Institute of Advanced Studies in Education,4,M.E.,explicit_name_multi_domain_signal
+588,"Institute of Communication and Information Technology, Kohima",46,BCA,explicit_name_multi_domain_signal
+588,"Institute of Communication and Information Technology, Kohima",47,MCA,explicit_name_multi_domain_signal
+591,Institute of Hotel Management,7,MBA,removed_unsupported_specialization
+591,Institute of Hotel Management,9,BBA,removed_unsupported_specialization
+592,Institute of Hotel Management Catering and Nutrition,7,MBA,removed_unsupported_specialization
+592,Institute of Hotel Management Catering and Nutrition,9,BBA,removed_unsupported_specialization
+593,Institute of Hotel Management Catering Technology and Applied Nutrition,1,B.Tech,removed_unsupported_specialization
+593,Institute of Hotel Management Catering Technology and Applied Nutrition,2,B.E.,removed_unsupported_specialization
+593,Institute of Hotel Management Catering Technology and Applied Nutrition,3,M.Tech,removed_unsupported_specialization
+593,Institute of Hotel Management Catering Technology and Applied Nutrition,4,M.E.,removed_unsupported_specialization
+593,Institute of Hotel Management Catering Technology and Applied Nutrition,7,MBA,removed_unsupported_specialization
+593,Institute of Hotel Management Catering Technology and Applied Nutrition,9,BBA,removed_unsupported_specialization
+594,Institute of Information Technology & Management,46,BCA,explicit_name_multi_domain_signal
+594,Institute of Information Technology & Management,47,MCA,explicit_name_multi_domain_signal
+600,Institute of Technical Education and Research,1,B.Tech,explicit_name_multi_domain_signal
+600,Institute of Technical Education and Research,2,B.E.,explicit_name_multi_domain_signal
+600,Institute of Technical Education and Research,3,M.Tech,explicit_name_multi_domain_signal
+600,Institute of Technical Education and Research,4,M.E.,explicit_name_multi_domain_signal
+603,International Institute of Hotel Management,1,B.Tech,removed_unsupported_specialization
+603,International Institute of Hotel Management,2,B.E.,removed_unsupported_specialization
+603,International Institute of Hotel Management,3,M.Tech,removed_unsupported_specialization
+603,International Institute of Hotel Management,4,M.E.,removed_unsupported_specialization
+603,International Institute of Hotel Management,7,MBA,removed_unsupported_specialization
+603,International Institute of Hotel Management,9,BBA,removed_unsupported_specialization
+604,International Institute of Information Technology,46,BCA,explicit_name_multi_domain_signal
+604,International Institute of Information Technology,47,MCA,explicit_name_multi_domain_signal
+605,International Institute of Information Technology Hyderabad,46,BCA,explicit_name_multi_domain_signal
+605,International Institute of Information Technology Hyderabad,47,MCA,explicit_name_multi_domain_signal
+636,Jaypee Institute of Information Technology University,46,BCA,explicit_name_multi_domain_signal
+636,Jaypee Institute of Information Technology University,47,MCA,explicit_name_multi_domain_signal
+648,"Jowai Polytechnic, Jowai",1,B.Tech,explicit_name_signal_polytechnic
+648,"Jowai Polytechnic, Jowai",2,B.E.,explicit_name_signal_polytechnic
+648,"Jowai Polytechnic, Jowai",3,M.Tech,explicit_name_signal_polytechnic
+648,"Jowai Polytechnic, Jowai",4,M.E.,explicit_name_signal_polytechnic
+661,Karaikal Polytechnic College,1,B.Tech,explicit_name_signal_polytechnic
+661,Karaikal Polytechnic College,2,B.E.,explicit_name_signal_polytechnic
+661,Karaikal Polytechnic College,3,M.Tech,explicit_name_signal_polytechnic
+661,Karaikal Polytechnic College,4,M.E.,explicit_name_signal_polytechnic
+663,Kashmir Government Polytechnic,1,B.Tech,explicit_name_signal_polytechnic
+663,Kashmir Government Polytechnic,2,B.E.,explicit_name_signal_polytechnic
+663,Kashmir Government Polytechnic,3,M.Tech,explicit_name_signal_polytechnic
+663,Kashmir Government Polytechnic,4,M.E.,explicit_name_signal_polytechnic
+673,"Khelhoshe Polytechnic Atoizu, Kohima",1,B.Tech,explicit_name_signal_polytechnic
+673,"Khelhoshe Polytechnic Atoizu, Kohima",2,B.E.,explicit_name_signal_polytechnic
+673,"Khelhoshe Polytechnic Atoizu, Kohima",3,M.Tech,explicit_name_signal_polytechnic
+673,"Khelhoshe Polytechnic Atoizu, Kohima",4,M.E.,explicit_name_signal_polytechnic
+676,King George`s Medical University,7,MBA,explicit_name_multi_domain_signal
+676,King George`s Medical University,9,BBA,explicit_name_multi_domain_signal
+676,King George`s Medical University,13,B.Com,explicit_name_multi_domain_signal
+676,King George`s Medical University,16,BA,explicit_name_multi_domain_signal
+676,King George`s Medical University,22,B.Sc,explicit_name_multi_domain_signal
+676,King George`s Medical University,46,BCA,explicit_name_multi_domain_signal
+678,"Kite Polytechnic College, Budgam",1,B.Tech,explicit_name_signal_polytechnic
+678,"Kite Polytechnic College, Budgam",2,B.E.,explicit_name_signal_polytechnic
+678,"Kite Polytechnic College, Budgam",3,M.Tech,explicit_name_signal_polytechnic
+678,"Kite Polytechnic College, Budgam",4,M.E.,explicit_name_signal_polytechnic
+681,KLE Society's Institute of Hotel Management and Catering Technology,1,B.Tech,removed_unsupported_specialization
+681,KLE Society's Institute of Hotel Management and Catering Technology,2,B.E.,removed_unsupported_specialization
+681,KLE Society's Institute of Hotel Management and Catering Technology,3,M.Tech,removed_unsupported_specialization
+681,KLE Society's Institute of Hotel Management and Catering Technology,4,M.E.,removed_unsupported_specialization
+681,KLE Society's Institute of Hotel Management and Catering Technology,7,MBA,removed_unsupported_specialization
+681,KLE Society's Institute of Hotel Management and Catering Technology,9,BBA,removed_unsupported_specialization
+705,"Longowal Polytechnic College, Chandigarh",1,B.Tech,explicit_name_signal_polytechnic
+705,"Longowal Polytechnic College, Chandigarh",2,B.E.,explicit_name_signal_polytechnic
+705,"Longowal Polytechnic College, Chandigarh",3,M.Tech,explicit_name_signal_polytechnic
+705,"Longowal Polytechnic College, Chandigarh",4,M.E.,explicit_name_signal_polytechnic
+740,Manipal Academy of Higher Education,1,B.Tech,explicit_name_multi_domain_signal
+740,Manipal Academy of Higher Education,2,B.E.,explicit_name_multi_domain_signal
+740,Manipal Academy of Higher Education,3,M.Tech,explicit_name_multi_domain_signal
+740,Manipal Academy of Higher Education,4,M.E.,explicit_name_multi_domain_signal
+771,"Mizoram Polytechnic, Lunglei",1,B.Tech,explicit_name_signal_polytechnic
+771,"Mizoram Polytechnic, Lunglei",2,B.E.,explicit_name_signal_polytechnic
+771,"Mizoram Polytechnic, Lunglei",3,M.Tech,explicit_name_signal_polytechnic
+771,"Mizoram Polytechnic, Lunglei",4,M.E.,explicit_name_signal_polytechnic
+786,"Motilal Nehru Government Polytechnic College, Pondicherry",1,B.Tech,explicit_name_signal_polytechnic
+786,"Motilal Nehru Government Polytechnic College, Pondicherry",2,B.E.,explicit_name_signal_polytechnic
+786,"Motilal Nehru Government Polytechnic College, Pondicherry",3,M.Tech,explicit_name_signal_polytechnic
+786,"Motilal Nehru Government Polytechnic College, Pondicherry",4,M.E.,explicit_name_signal_polytechnic
+796,NALSAR Hyderabad,33,LLB,official_program_page
+804,National Council For Hotel Management and Catering Technology,1,B.Tech,removed_unsupported_specialization
+804,National Council For Hotel Management and Catering Technology,2,B.E.,removed_unsupported_specialization
+804,National Council For Hotel Management and Catering Technology,3,M.Tech,removed_unsupported_specialization
+804,National Council For Hotel Management and Catering Technology,4,M.E.,removed_unsupported_specialization
+804,National Council For Hotel Management and Catering Technology,7,MBA,removed_unsupported_specialization
+804,National Council For Hotel Management and Catering Technology,9,BBA,removed_unsupported_specialization
+805,National Institute of Electronics & Information Technology,46,BCA,explicit_name_multi_domain_signal
+805,National Institute of Electronics & Information Technology,47,MCA,explicit_name_multi_domain_signal
+806,National Institute of Fashion Technology Mumbai,19,BFA,explicit_name_multi_domain_signal
+807,National Institute of Fashion Technology Patna,19,BFA,explicit_name_multi_domain_signal
+811,National Institute of Mental Health and Neuro Sciences,16,BA,removed_unsupported_specialization
+815,National Institute of Technical Teachers Training and,1,B.Tech,explicit_name_multi_domain_signal
+815,National Institute of Technical Teachers Training and,2,B.E.,explicit_name_multi_domain_signal
+815,National Institute of Technical Teachers Training and,3,M.Tech,explicit_name_multi_domain_signal
+815,National Institute of Technical Teachers Training and,4,M.E.,explicit_name_multi_domain_signal
+816,National Institute of Technical Teachers Training and Research,16,BA,explicit_name_multi_domain_signal
+835,NLIU Bhopal,33,LLB,institution_type_nlu
+837,NLU Delhi,33,LLB,institution_type_nlu
+838,NLU Jodhpur,33,LLB,institution_type_nlu
+845,Northern India Institute of Fashion Technology,19,BFA,explicit_name_multi_domain_signal
+848,NUJS Kolkata,33,LLB,institution_type_nlu
+913,Rajiv Gandhi Government Polytechnic,1,B.Tech,explicit_name_signal_polytechnic
+913,Rajiv Gandhi Government Polytechnic,2,B.E.,explicit_name_signal_polytechnic
+913,Rajiv Gandhi Government Polytechnic,3,M.Tech,explicit_name_signal_polytechnic
+913,Rajiv Gandhi Government Polytechnic,4,M.E.,explicit_name_signal_polytechnic
+933,Regional Institute of Science and Technolog,1,B.Tech,explicit_name_multi_domain_signal
+933,Regional Institute of Science and Technolog,2,B.E.,explicit_name_multi_domain_signal
+933,Regional Institute of Science and Technolog,3,M.Tech,explicit_name_multi_domain_signal
+933,Regional Institute of Science and Technolog,4,M.E.,explicit_name_multi_domain_signal
+979,Saveetha Institute of Medical and Technical Sciences,7,MBA,explicit_name_multi_domain_signal
+979,Saveetha Institute of Medical and Technical Sciences,9,BBA,explicit_name_multi_domain_signal
+979,Saveetha Institute of Medical and Technical Sciences,13,B.Com,explicit_name_multi_domain_signal
+979,Saveetha Institute of Medical and Technical Sciences,16,BA,explicit_name_multi_domain_signal
+979,Saveetha Institute of Medical and Technical Sciences,22,B.Sc,explicit_name_multi_domain_signal
+979,Saveetha Institute of Medical and Technical Sciences,46,BCA,explicit_name_multi_domain_signal
+998,"Shillong Polytechnic, Mawlai",1,B.Tech,explicit_name_signal_polytechnic
+998,"Shillong Polytechnic, Mawlai",2,B.E.,explicit_name_signal_polytechnic
+998,"Shillong Polytechnic, Mawlai",3,M.Tech,explicit_name_signal_polytechnic
+998,"Shillong Polytechnic, Mawlai",4,M.E.,explicit_name_signal_polytechnic
+1005,Shoolini University of Biotechnology and Management Sciences,1,B.Tech,explicit_name_multi_domain_signal
+1005,Shoolini University of Biotechnology and Management Sciences,2,B.E.,explicit_name_multi_domain_signal
+1005,Shoolini University of Biotechnology and Management Sciences,3,M.Tech,explicit_name_multi_domain_signal
+1005,Shoolini University of Biotechnology and Management Sciences,4,M.E.,explicit_name_multi_domain_signal
+1006,Shree Narayan Medical Institute & Hospital,16,BA,explicit_name_multi_domain_signal
+1007,"Shree Rayeshwar Institute of Engineering and Information Technology, North Goa",46,BCA,explicit_name_multi_domain_signal
+1007,"Shree Rayeshwar Institute of Engineering and Information Technology, North Goa",47,MCA,explicit_name_multi_domain_signal
+1010,Shri Guru Ram Rai Institute of Medical and Health Sciences,16,BA,explicit_name_multi_domain_signal
+1019,Shri Shankaracharya Institute of Professional Management and,1,B.Tech,explicit_name_multi_domain_signal
+1019,Shri Shankaracharya Institute of Professional Management and,2,B.E.,explicit_name_multi_domain_signal
+1019,Shri Shankaracharya Institute of Professional Management and,3,M.Tech,explicit_name_multi_domain_signal
+1019,Shri Shankaracharya Institute of Professional Management and,4,M.E.,explicit_name_multi_domain_signal
+1051,"Sri Manakula Vinayagar Polytechnic College, Pondicherry",1,B.Tech,explicit_name_signal_polytechnic
+1051,"Sri Manakula Vinayagar Polytechnic College, Pondicherry",2,B.E.,explicit_name_signal_polytechnic
+1051,"Sri Manakula Vinayagar Polytechnic College, Pondicherry",3,M.Tech,explicit_name_signal_polytechnic
+1051,"Sri Manakula Vinayagar Polytechnic College, Pondicherry",4,M.E.,explicit_name_signal_polytechnic
+1091,Swami Vivekanand Polytechnic College,1,B.Tech,explicit_name_signal_polytechnic
+1091,Swami Vivekanand Polytechnic College,2,B.E.,explicit_name_signal_polytechnic
+1091,Swami Vivekanand Polytechnic College,3,M.Tech,explicit_name_signal_polytechnic
+1091,Swami Vivekanand Polytechnic College,4,M.E.,explicit_name_signal_polytechnic
+1111,The LNM Institute of Information Technology,46,BCA,explicit_name_multi_domain_signal
+1111,The LNM Institute of Information Technology,47,MCA,explicit_name_multi_domain_signal
+1115,TIFR Mumbai,7,MBA,research_institute_without_matching_canonical_program
+1115,TIFR Mumbai,9,BBA,research_institute_without_matching_canonical_program
+1115,TIFR Mumbai,13,B.Com,research_institute_without_matching_canonical_program
+1115,TIFR Mumbai,16,BA,research_institute_without_matching_canonical_program
+1115,TIFR Mumbai,22,B.Sc,research_institute_without_matching_canonical_program
+1115,TIFR Mumbai,46,BCA,research_institute_without_matching_canonical_program
+1117,"Tomi Polytechnic College, Basar",1,B.Tech,explicit_name_signal_polytechnic
+1117,"Tomi Polytechnic College, Basar",2,B.E.,explicit_name_signal_polytechnic
+1117,"Tomi Polytechnic College, Basar",3,M.Tech,explicit_name_signal_polytechnic
+1117,"Tomi Polytechnic College, Basar",4,M.E.,explicit_name_signal_polytechnic
+1122,"TTAADC Polytechnic Institute, West Tripura",1,B.Tech,explicit_name_signal_polytechnic
+1122,"TTAADC Polytechnic Institute, West Tripura",2,B.E.,explicit_name_signal_polytechnic
+1122,"TTAADC Polytechnic Institute, West Tripura",3,M.Tech,explicit_name_signal_polytechnic
+1122,"TTAADC Polytechnic Institute, West Tripura",4,M.E.,explicit_name_signal_polytechnic
+1125,"Tura Polytechnic College, Tura",1,B.Tech,explicit_name_signal_polytechnic
+1125,"Tura Polytechnic College, Tura",2,B.E.,explicit_name_signal_polytechnic
+1125,"Tura Polytechnic College, Tura",3,M.Tech,explicit_name_signal_polytechnic
+1125,"Tura Polytechnic College, Tura",4,M.E.,explicit_name_signal_polytechnic
+1130,"Universal Polytechnic College, Chandigarh",1,B.Tech,explicit_name_signal_polytechnic
+1130,"Universal Polytechnic College, Chandigarh",2,B.E.,explicit_name_signal_polytechnic
+1130,"Universal Polytechnic College, Chandigarh",3,M.Tech,explicit_name_signal_polytechnic
+1130,"Universal Polytechnic College, Chandigarh",4,M.E.,explicit_name_signal_polytechnic
+1134,"University Institute of Information Technology, Himachal Pradesh University",46,BCA,explicit_name_multi_domain_signal
+1134,"University Institute of Information Technology, Himachal Pradesh University",47,MCA,explicit_name_multi_domain_signal
+1138,"University Institute of Tourism and Hospitality Management, Chandigarh University",7,MBA,removed_unsupported_specialization
+1138,"University Institute of Tourism and Hospitality Management, Chandigarh University",9,BBA,removed_unsupported_specialization
+1160,Veer Chandra Singh Garhwali Government Institute Of Medical Science and Research,16,BA,explicit_name_multi_domain_signal
+1176,Vishwakarma Institute of Information Technology,46,BCA,explicit_name_multi_domain_signal
+1176,Vishwakarma Institute of Information Technology,47,MCA,explicit_name_multi_domain_signal
+1179,Visvesvaraya Technological University,7,MBA,explicit_name_multi_domain_signal
+1179,Visvesvaraya Technological University,9,BBA,explicit_name_multi_domain_signal
+1179,Visvesvaraya Technological University,13,B.Com,explicit_name_multi_domain_signal
+1179,Visvesvaraya Technological University,16,BA,explicit_name_multi_domain_signal
+1179,Visvesvaraya Technological University,22,B.Sc,explicit_name_multi_domain_signal
+1179,Visvesvaraya Technological University,46,BCA,explicit_name_multi_domain_signal
+1192,Women’s Polytechnic College,1,B.Tech,explicit_name_signal_polytechnic
+1192,Women’s Polytechnic College,2,B.E.,explicit_name_signal_polytechnic
+1192,Women’s Polytechnic College,3,M.Tech,explicit_name_signal_polytechnic
+1192,Women’s Polytechnic College,4,M.E.,explicit_name_signal_polytechnic
+1193,World University of Design,19,BFA,explicit_name_multi_domain_signal

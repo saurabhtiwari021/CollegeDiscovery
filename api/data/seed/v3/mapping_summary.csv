@@ -1,0 +1,5 @@
+mapping_confidence,total_rows,active_rows,inactive_rows,verified_rows,source_types
+verified,38,38,0,38,official
+high,999,999,0,60,"curated, derived, official"
+medium,1284,1284,0,0,"curated, derived, official"
+low,1249,0,1249,0,derived
